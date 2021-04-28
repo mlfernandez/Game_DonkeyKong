@@ -1,0 +1,16 @@
+/* General */
+
+/* Fonts* /
+
+/* Class */
+
+.console {
+    height: 30em ;
+    width: 44em;
+    background-color: #e88b55;
+
+    display: flex; 
+    justify-content:center;
+    align-items:center;
+}
+
