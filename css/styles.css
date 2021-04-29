@@ -34,7 +34,6 @@
     height: 30em;
     width: 10em;
     background-color: #e88b55;
-    border-radius: 0% 0% 0% 0%;
     border-bottom-right-radius:  0.5em 0.5em;
   
 }
@@ -56,13 +55,29 @@
 .screenInside {
     height: 16em;
     width: 22em;
-    background-color: grey;
-
+    background-color: #e88b55;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    
 }
-
 
 .upLineBox {
     height: 0.3em;
     width: 20em;
-    background-color: #ce734a
+    background-color: #ce734a;
+    border-style: inset;
+    
+    border-color: rgb(153, 84, 6) rgb(192, 127, 7) rgb(196, 130, 33) rgb(172, 106, 8);
+}
+
+.screenBorderOrange { 
+    height: 15em;
+    width: 20em;
+    background-color: grey;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    border-style: inset;
+    border-width: 0.3em;
+    border-color: rgb(189, 103, 4) rgb(192, 127, 7) rgb(196, 130, 33) rgb(172, 106, 8);
+
 }
