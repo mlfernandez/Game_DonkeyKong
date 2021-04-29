@@ -4,13 +4,35 @@
 
 /* Class */
 
-.console {
-    height: 30em ;
-    width: 44em;
-    background-color: #e88b55;
+.outsideFrame {
+    height: 30em;
+    width: 42em;
+    background-color: white;
 
     display: flex; 
-    justify-content:center;
-    align-items:center;
+    flex-direction: row;
 }
+
+.outsideFrameLeft {
+    height: 30em;
+    width: 19em;
+    background-color: #e88b55;
+    
+}
+
+.outsideFrameCenter {
+    height: 29em;
+    width: 8em;
+    background-color: #e88b55;
+  
+}
+
+.outsideFrameRight {
+    height: 30em;
+    width: 19em;
+    background-color: #e88b55;
+  
+}
+
+
 
