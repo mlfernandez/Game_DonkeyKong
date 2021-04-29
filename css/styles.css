@@ -13,26 +13,56 @@
     flex-direction: row;
 }
 
+
+
 .outsideFrameLeft {
     height: 30em;
-    width: 19em;
+    width: 10em;
     background-color: #e88b55;
+    border-bottom-left-radius:  0.5em 0.5em;
     
 }
 
 .outsideFrameCenter {
-    height: 29em;
-    width: 8em;
-    background-color: #e88b55;
-  
+    height: 30em;
+    width: 22em;
+    background-color: yellow;
+    
 }
 
 .outsideFrameRight {
     height: 30em;
-    width: 19em;
+    width: 10em;
     background-color: #e88b55;
+    border-radius: 0% 0% 0% 0%;
+    border-bottom-right-radius:  0.5em 0.5em;
   
 }
 
+.blank {
+    height: 2em;
+    width: 22em;
+    background-color: #e88b55;
+}
+.upLine {
+    height: 2em;
+    width: 22em;
+    background-color: #e88b55;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.screenInside {
+    height: 16em;
+    width: 22em;
+    background-color: grey;
+
+}
 
 
+.upLineBox {
+    height: 0.3em;
+    width: 20em;
+    background-color: #ce734a
+}
