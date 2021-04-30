@@ -3,11 +3,11 @@
 img {
     margin:auto;
     width:310px;
-    display:block
+    display:block;
+
 }
 
 /* Fonts* /
-
 /* Class */
 
 
@@ -72,12 +72,45 @@ img {
     
 }
 
+.screen {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+.logo {
+    height: 5em;
+    width: 22em;
+    background-color: #e88b55;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+
+}
+
+.logoBox {
+    height: 1.8em;
+    width: 10em;
+    background-color: transparent;
+    /*border-radius: 0.3em 0.3em 0.3em 0.3em;*/
+    border-style: inset;
+    border-width: 0.3em;
+    border-color: black;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    border-radius: 20%;
+    
+}
+
 .upLineBox {
     height: 0.3em;
     width: 20em;
     background-color: #ce734a;
     border-style: inset;
-    
     border-color: rgb(153, 84, 6) rgb(192, 127, 7) rgb(196, 130, 33) rgb(172, 106, 8);
 }
 
