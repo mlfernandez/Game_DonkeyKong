@@ -10,7 +10,7 @@
     height: 100vh;
     align-items: center;
     /*overflow: hidden;*/
-    background-color: white;
+    background-color: rgb(211, 208, 208);
     position: absolute;
     justify-content: center;
     display: flex; 
@@ -83,5 +83,18 @@
     border-style: inset;
     border-width: 0.3em;
     border-color: rgb(189, 103, 4) rgb(192, 127, 7) rgb(196, 130, 33) rgb(172, 106, 8);
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
 
+.screenBorderBlack {
+
+    height: 14.8em;
+    width: 19.8em;
+    background-color: grey;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    border-style: inset;
+    border-width: 0.3em;
+    border-color: black;
 }
