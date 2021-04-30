@@ -169,7 +169,6 @@ img {
     background-color: #e88b55;
     border-bottom-left-radius:  0.5em 0.5em; 
     justify-content: center;
-    /*display: flex; */
     flex-direction: row; 
 
 }
@@ -204,11 +203,13 @@ img {
     border-width: 0.3em;
     border-color: rgb(189, 103, 4) rgb(192, 127, 7) rgb(196, 130, 33) rgb(172, 106, 8);
     border-top:    1em;
-  
+    justify-content: center;
+    display: flex; 
+    flex-direction: row; 
 }
 
-.logoGW {
 
+.logoGW {
     width: 7.5em;
     height: 7em;
     display: flex; 
@@ -217,5 +218,110 @@ img {
     background-color: transparent;
     margin-top: 2em;
     margin-left: 0.4em;
+ }
+
+.outsideBorderW {
+    height: 13.5em;
+    width: 8em;
+    background-color: #f6f3e7;
+    justify-content: center;
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+
+
+}
+
+.outsideBorderO {
+    height: 12.5em;
+    width: 6.9em;
+    background-color: #f6f3e7;
+    border-style: solid;
+    border-width: 0.2em;
+    border-color:  rgb(196, 130, 33);
+    justify-content: center;
+    display: flex; 
+    flex-direction: row; 
+}
+
+
+ .controlSquare {
+    height: 6em;
+    width: 6em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f3e7;
+ }
+
+.buttonL {
+    height: 2em;
+    width: 2em;
+    background: #313030;
+    /*border-radius: .2em 0 0 .2em;*/
+    /*box-shadow: 0px 2px 3px 0.2px rgb(139 139 139);*/
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    box-shadow: -1px 1px 3px #333;
+    border-top: 0.2em solid rgb(196, 130, 33);
+    border-bottom: 0.2em solid rgb(196, 130, 33);
+    border-left: 0.2em solid rgb(196, 130, 33);
+    border-radius: 3px;
+    }
+
+.buttonTCB {
+    height: 6em;
+    width: 2em;
+    background: #313030;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: -1px 1px 3px #333;
+    border: 2px solid #333;
+    border-radius: 3px;
+    border-top: 0.2em solid rgb(196, 130, 33);
+    border-bottom: 0.2em solid rgb(196, 130, 33);
     
+}
+
+.buttonR {
+    height: 2em;
+    width: 2em;
+    background: #313030;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: -1px 1px 3px #333;
+    border-radius: 3px;
+    border-top: 0.2em solid rgb(196, 130, 33);
+    border-bottom: 0.2em solid rgb(196, 130, 33);
+    border-right: 0.2em solid rgb(196, 130, 33);
+}
+
+
+
+ /*.controlSquareH {
+    width: 6em;
+    height: 2em;
+    background: #313030;
+    position: absolute;
+    z-index: 99999;
+    margin: 4em 2em 2em 2em;
+    box-shadow: -1px 1px 3px #333;
+    border: 2px solid #333;
+    border-radius: 3px;
+ }
+
+ .controlSquareC {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #5A5A5A;
+    margin: -90px 0 0 59px;
+    position: absolute;
+    z-index: 999999;
+    box-shadow: inset 0px 0px 10px #1f1f1f;
  }
