@@ -1,5 +1,11 @@
 /* General */
 
+img {
+    margin:auto;
+    width:310px;
+    display:block
+}
+
 /* Fonts* /
 
 /* Class */
@@ -76,7 +82,7 @@
 }
 
 .screenBorderOrange { 
-    height: 15em;
+    height: 12.8em;
     width: 20em;
     background-color: grey;
     border-radius: 0.5em 0.5em 0.5em 0.5em;
@@ -90,11 +96,15 @@
 
 .screenBorderBlack {
 
-    height: 14.8em;
+    height: 12.3em;
     width: 19.8em;
     background-color: grey;
-    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    border-radius: 0.3em 0.3em 0.3em 0.3em;
     border-style: inset;
     border-width: 0.3em;
     border-color: black;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
 }
+
