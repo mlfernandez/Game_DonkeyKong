@@ -177,7 +177,7 @@ img {
 .frameLogoGW {
     height: 14em;
     width: 8em;
-    background-color: green;
+    background-color: #e88b55;
     border-top-right-radius:  0.5em 0.5em; 
     border-top-left-radius:  0.5em 0.5em; 
     margin-top: 1em;
@@ -193,9 +193,9 @@ img {
 }
 
 .frameControl {
-    height: 14em;
+    height: 13.5em;
     width: 8em;
-    background-color: yellow;
+    background-color: #e88b55;
     border-bottom-right-radius:  0.5em 0.5em; 
     border-bottom-left-radius:  0.5em 0.5em; 
     margin-bottom: 1em;
@@ -210,9 +210,12 @@ img {
 .logoGW {
 
     width: 7.5em;
-    height: 4em;
+    height: 7em;
     display: flex; 
     align-items: center;
     justify-content: center;
-    background-color: violet;
-  }
+    background-color: transparent;
+    margin-top: 2em;
+    margin-left: 0.4em;
+    
+ }
