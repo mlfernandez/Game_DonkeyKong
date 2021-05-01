@@ -4,10 +4,13 @@
 
 -----------------
 
--:speech_balloon: [Acerca del proyecto](#id1)             
--:video_game: [Sobre el juego](#id2)
--:clipboard: [Características del proyecto](#id3)
--:eye_speech_bubble: [Visita la página](#id4)
+:speech_balloon: [Acerca del proyecto](#id1)    
+
+:video_game: [Sobre el juego](#id2)
+
+:clipboard: [Características del proyecto](#id3)
+
+:eye_speech_bubble: [Visita la página](#id4)
 
 --------------
 
@@ -44,7 +47,7 @@ Para la realización de este trabajo contamos con las siguientes herramientas y 
 | <img src="images/css.png" alt="CSS3" width="30"/> | CSS3 | 
 
 | <img src="images/git4.png" alt="Git" width="30"/> | Git |
- 
+
 | <img src="images/github2.png" alt="GitHub" width="30"/> | GitHub | 
 
 <br>
