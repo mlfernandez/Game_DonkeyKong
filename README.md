@@ -1,4 +1,4 @@
-# Donkey Kong 
+#Donkey Kong 
 ##### Game & Watch by Nintendo
 
 -----------------
@@ -10,10 +10,7 @@
 
 --------------
 
-<p align="center">
-  <img src="images/Donkey Kong.jpg" width="350" title="Donkey Kong Mockup text">
-</p>
-
+![Aquí la descripción de la imagen por si no carga](https://github.com/mlfernandez/Game_DonkeyKong/blob/72d041438b60bd207660c45151b025f172409de4/images/Donkey%20Kong.JPG)
 --------------------------
 
 ### Acerca del proyecto
