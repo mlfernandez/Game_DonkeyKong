@@ -60,7 +60,7 @@ h4 {
     border-left: 0.2em solid rgb(170, 169, 167);
     border-bottom-left-radius:  0.7em;
     border-bottom-right-radius:  0.7em;
-    
+    box-shadow: 0 0em 0.9em 0.3em #46463f;
 }
 
 .outsideFrameCenter {
