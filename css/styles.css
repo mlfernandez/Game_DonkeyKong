@@ -9,14 +9,23 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     margin-top: 1.4em;
-
 }
 
 h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     margin-top: 0.5em;
+}
 
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7px;
+    letter-spacing: 0.2em;
 }
 
 /* Fonts* /
@@ -409,34 +418,77 @@ h2 {
     justify-content: center;
     display: flex; 
     flex-direction: row; 
+    align-items: center;
+    text-align: center;
 }   
 
 .columnBlank { 
     height: 14em;
     width: 1em;
-    background-color: teal;
+    background-color: #e88b55;
 }
 
 .columnGameAB { 
     height: 14em;
     width: 3em;
-    background-color: violet;
+    background-color: #e88b55;
 }
 
 .columnAlarm {
     height: 14em;
     width: 3em;
-    background-color: yellow;
+    background-color: #e88b55;
 }
+
+
+.gameABT {
+    display: block;
+    width: 1.5em;
+    height: 0.9em;    
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    background: #999;
+    /*margin-bottom: 5px;*/
+    box-shadow: inset 0 -3px 2px rgb(0 0 0 / 40%);
+    border-bottom-right-radius:  0.5em; 
+    border-bottom-left-radius:  0.5em; 
+    border-top-left-radius:  0.5em; 
+    border-top-right-radius:  0.5em; 
+    border-style: inset;
+    border-color: rgb(51, 51, 50) rgb(134, 94, 53) rgb(99, 88, 58) rgb(94, 65, 22);
+    /*justify-content: center;*/
+
+}
+
+.rowBlank {
+    margin: -1.5em;
+}
+
+.alarmAlt {
+    width: 0.625em;
+    height: 0.625em;
+    margin-top: 3.7em;
+    margin-bottom: -0.3em;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #fff;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: inset 0 4px 6px rgb(0 0 0 / 50%);
+}
+
+
 
 .frameCircleBotom {
     height: 13.5em;
     width: 8em;
     background-color: #e88b55;
-    border-bottom-right-radius:  0.5em 0.5em; 
-    border-bottom-left-radius:  0.5em 0.5em; 
     margin-bottom: 1em;
     margin-left: 0.5em;
+    border-bottom-right-radius:  0.5em 0.5em; 
+    border-bottom-left-radius:  0.5em 0.5em; 
     border-style: inset;
     border-width: 0.3em;
     border-color: rgb(189, 103, 4) rgb(192, 127, 7) rgb(196, 130, 33) rgb(172, 106, 8);
