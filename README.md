@@ -1,25 +1,28 @@
+<a name="top"></a>
 #Donkey Kong 
 ##### Game & Watch by Nintendo
 
 -----------------
 
-:speech_balloon:[Acerca del proyecto](###Acerca-del-proyecto)             
-:video_game: [Sobre el juego](###Sobre-el-juego)
-:clipboard:[Características del proyecto](###Características-del-proyecto)
-:eye_speech_bubble:[Visita la página](###Visita-la-página-del-proyecto-en-GitHub)
+:speech_balloon: [Acerca del proyecto](#id1)             
+:video_game: [Sobre el juego](#id2)
+:clipboard: [Características del proyecto](#id3)
+:eye_speech_bubble: [Visita la página](#id4)
 
 --------------
 
-![Aquí la descripción de la imagen por si no carga](https://github.com/mlfernandez/Game_DonkeyKong/blob/72d041438b60bd207660c45151b025f172409de4/images/Donkey%20Kong.JPG)
+![Captura](images/DonkeyKong.JPG)
 --------------------------
 
-### Acerca del proyecto
+<a name="id1"></a>
+### Acerca del proyecto 
 
 Realización del mockup de una consola como proyecto para el bootcamp de Full Stack Developer de [GeeksHubs Academy](https://bootcamp.geekshubsacademy.com/).
 
 
 <br>
 
+<a name="id2"></a>
 ### Sobre el juego
 
 Mi elección fue la consola Game & Watch de Nintendo con el juego Donkey Kong.
@@ -32,22 +35,25 @@ Donkey Kong aparece en la compilación Game & Watch Gallery 2 para Game Boy Colo
 
 <br>
 
+<a name="id3"></a>
 ### Características del proyecto
 
 Para la realización de este trabajo contamos con las siguientes herramientas y tecnologías.
 
-- Visualcode Editor
-- HTML5
-- CSS (Divs, Flexbox, )
-- README Markdown 
-- Git
-- Github
+- <img src="images/logovisual.png" alt="Visual" width="30"/>  Visual Code Estudio
+- <img src="images/html.png" alt="HTML5" width="30"/> HTML5
+- <img src="images/css.png" alt="CSS3" width="45"/> CSS3
+- <img src="images/git.png" alt="Git" width="30"/>  Git
++ <img src="images/github.png" alt="GitHub" width="45"/> GitHub
 
 <br>
 
+<a name="id4"></a>
 ### Visita la página del proyecto en GitHub
 
 [Donkey Kong Consola](https://mlfernandez.github.io/Game_DonkeyKong/)
+
+[Subir](#top)
 
 
 
