@@ -46,16 +46,14 @@ h4 {
     flex-direction: row;   
 }
 
-
-
 .outsideFrameCenter {
-    height: 30em;
+    height: 27em;
     width: 22em;
-    background-color: yellow;    
+    /*background-color: yellow;    */
 }
 
 .outsideFrameRight {
-    height: 30em;
+    height: 27em;
     width: 10em;
     background-color: #e88b55;
     border-bottom-right-radius:  0.5em 0.5em;
@@ -78,7 +76,7 @@ h4 {
 }
 
 .screenInside {
-    height: 16em;
+    height: 13em;
     width: 22em;
     background-color: #e88b55;
     display: flex; 
@@ -147,6 +145,7 @@ h4 {
 .upLineBox {
     height: 0.3em;
     width: 20em;
+    margin-bottom: 2em;
     background-color: #ce734a;
     border-style: inset;
     border-color: rgb(153, 84, 6) rgb(192, 127, 7) rgb(196, 130, 33) rgb(172, 106, 8);
@@ -182,7 +181,7 @@ h4 {
 /*Outside Frame Left*/
 
 .outsideFrameLeft {
-    height: 30em;
+    height: 27em;
     width: 10em;
     background-color: #e88b55;
     border-bottom-left-radius:  0.5em 0.5em; 
@@ -192,7 +191,7 @@ h4 {
 }
 
 .frameLogoGW {
-    height: 14em;
+    height: 12em;
     width: 8em;
     background-color: #e88b55;
     border-top-right-radius:  0.5em 0.5em; 
@@ -210,7 +209,7 @@ h4 {
 }
 
 .frameControl {
-    height: 13.5em;
+    height: 12em;
     width: 8em;
     background-color: #e88b55;
     border-bottom-right-radius:  0.5em 0.5em; 
@@ -239,7 +238,7 @@ h4 {
  }
 
 .outsideBorderW {
-    height: 13.5em;
+    height: 12em;
     width: 8em;
     background-color: #f6f3e7;
     justify-content: center;
@@ -251,7 +250,7 @@ h4 {
 }
 
 .outsideBorderO {
-    height: 12.5em;
+    height: 11em;
     width: 6.9em;
     background-color: #f6f3e7;
     border-style: solid;
@@ -395,7 +394,7 @@ h4 {
 /*Outside Frame Left*/
 
 .outsideFrameRight {  
-    height: 30em;
+    height: 27em;
     width: 10em;
     background-color: #e88b55;
     border-bottom-right-radius: 0.5em 0.5em; 
@@ -404,7 +403,7 @@ h4 {
     }
 
 .frameGamesAB {
-    height: 14em;
+    height: 12em;
     width: 8em;
     background-color: #e88b55;
     border-top-right-radius:  0.5em 0.5em; 
@@ -423,19 +422,19 @@ h4 {
 }   
 
 .columnBlank { 
-    height: 14em;
+    height: 12em;
     width: 1em;
     background-color: #e88b55;
 }
 
 .columnGameAB { 
-    height: 14em;
+    height: 12em;
     width: 3em;
     background-color: #e88b55;
 }
 
 .columnAlarm {
-    height: 14em;
+    height: 12em;
     width: 3em;
     background-color: #e88b55;
 }
@@ -482,7 +481,7 @@ h4 {
 
 
 .frameCircleBotom {
-    height: 13.5em;
+    height: 12em;
     width: 8em;
     background-color: #e88b55;
     margin-bottom: 1em;
