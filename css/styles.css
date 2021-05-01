@@ -259,10 +259,12 @@ img {
     justify-content: start;
     align-items: center;
     box-shadow: -1px 1px 3px #333;
+
+    border-radius: 3px;
+
     border-top: 0.2em solid rgb(196, 130, 33);
     border-bottom: 0.2em solid rgb(196, 130, 33);
     border-left: 0.2em solid rgb(196, 130, 33);
-    border-radius: 3px;
     }
 
 .buttonTCB {
@@ -296,6 +298,7 @@ img {
     border-top: 0.2em solid rgb(196, 130, 33);
     border-bottom: 0.2em solid rgb(196, 130, 33);
     border-right: 0.2em solid rgb(196, 130, 33);
+
 }
 
 .squareCircle {
@@ -321,6 +324,49 @@ img {
     z-index: 999999;
     box-shadow: inset 0px 0px 10px #1f1f1f;
 }
+
+.arrowUp {
+    margin-top: 5em;
+    width: 0;
+    height: 0;
+    border-left: 1em solid rgb(80, 82, 82);
+    border-top: .5em solid transparent;
+    border-bottom: .5em solid transparent;
+    transform: rotate(-90deg);
+
+}
+
+.arrowLeft {
+    margin-left: 0.34em;
+    border-left: 1em solid rgb(80, 82, 82);
+    border-top: .5em solid transparent;
+    border-bottom: .5em solid transparent;
+    box-shadow: inset 0px 0px 10px #8d8989;
+    transform: rotate(-180deg);
+}
+
+.arrowRight { 
+    margin-right: .4em;
+    width: 0;
+    height: 0;
+    border-left: 1em solid rgb(80, 82, 82);
+    border-top: .5em solid transparent;
+    border-bottom: .5em solid transparent;
+}
+
+.arrowDown {
+    margin-bottom: 5em;
+    margin-top: 48px;
+    width: 0;
+    height: 0;
+    border-left: 1em solid rgb(80, 82, 82);
+    border-top: .5em solid transparent;
+    border-bottom: .5em solid transparent;
+    transform: rotate(90deg);
+
+}
+
+
 
  /*.controlSquareH {
     width: 6em;
