@@ -5,6 +5,13 @@ img {
     display:block;
 }
 
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: 1.4em;
+
+}
+
 /* Fonts* /
 
 /* CLASS */
@@ -237,6 +244,11 @@ img {
     justify-content: center;
     display: flex; 
     flex-direction: row; 
+}
+
+.controlBackGW {
+    justify-content: center;
+    text-align: center;
 }
 
 
