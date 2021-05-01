@@ -1,4 +1,11 @@
 /* General */
+
+body {
+    background-color: lightgrey;
+    position: relative;
+    justify-content: center;
+    display: flex;   
+}
 img {
     margin:auto;
     width:310px;
@@ -28,6 +35,8 @@ h4 {
     letter-spacing: 0.2em;
 }
 
+
+
 /* Fonts* /
 
 /* CLASS */
@@ -35,21 +44,27 @@ h4 {
 /*Outside Frame Center*/
 
 .outsideFrame {
-    width: 100vw;
-    height: 100vh;
-    align-items: center;
-    /*overflow: hidden;*/
+    width: 42em;
+    height: 27em;
+    /*align-items: center;*/
     background-color: rgb(211, 208, 208);
-    position: absolute;
-    justify-content: center;
+    /*position: absolute;*/
+    /*justify-content: center;*/
     display: flex; 
-    flex-direction: row;   
+    /*flex-direction: row;*/
+    box-shadow: -1px 1px 3px #333;
+    border-top: 0.2em solid rgb(204, 203, 201);
+    border-bottom: 0.3em solid rgb(77, 75, 72);
+    border-right: 0.2em solid rgb(172, 171, 170);
+    border-left: 0.2em solid rgb(170, 169, 167);
+    border-bottom-left-radius:  0.7em;
+    border-bottom-right-radius:  0.7em;
+    
 }
 
 .outsideFrameCenter {
     height: 27em;
     width: 22em;
-    /*background-color: yellow;    */
 }
 
 .outsideFrameRight {
@@ -62,13 +77,13 @@ h4 {
 
 .blank {
     height: 2em;
-    width: 22em;
+    /*width: 22em;*/
     background-color: #e88b55;
 }
 
 .upLine {
     height: 2em;
-    width: 22em;
+    /*width: 22em;*/
     background-color: #e88b55;
     display: flex; 
     align-items: center;
@@ -77,18 +92,18 @@ h4 {
 
 .screenInside {
     height: 13em;
-    width: 22em;
+    /*width: 22em;*/
     background-color: #e88b55;
     display: flex; 
     align-items: center;
     justify-content: center;
 }
 
-.screen {
+/*.screen {
     display: flex; 
     align-items: center;
     justify-content: center; 
-}
+}*/
 
 .logo {
     height: 5em;
@@ -101,22 +116,22 @@ h4 {
 
 .cutOut { 
     height: 3em;
-    width: 22em;
+    /*width: 22em;*/
     background-color: #e88b55;
-    display: flex; 
+    /*display: flex; 
     align-items: center;
     justify-content: center; 
-    position:relative;
+    position:relative;*/
 }
 
 .cutOutColumns {
-    height: 2em;
+    /*height: 2em;*/
     width: 22em;
     display: flex; 
     align-items: center;
     justify-content:flex-end;
     flex-direction: column;
-    background-color: #e88b55;
+    /*background-color: #e88b55;*/
     position:absolute;
     bottom:0px;
 }
@@ -125,17 +140,22 @@ h4 {
     height: 1em;
     width: 7em;
     background-color: rgb(211, 208, 208);
+    
+    border-style: inset;
+    border-width: 0.1em;
+    border-top: 0.3em solid #ce734a;
+    border-left: 0.2em solid #ce734a;
+    border-right: 0.2em solid #ce734a;
+    border-bottom: 0.1em solid lightgray; 
 }
 
 .logoBox {
     height: 1.95em;
     width: 10em;
-    background-color: transparent;
     border-style: inset;
     border-width: 0.1em;
     border-color: black;
     display: flex; 
-    align-items: center;
     justify-content: center;
     box-shadow: 1px 1px 4px #5a5a5a, 1px 1px 4px #ccc inset, -1px -1px 4px #5a5a5a, -1px -1px 3px #ccc inset;
     border-radius: 130px 130px 130px 130px; 
@@ -154,28 +174,27 @@ h4 {
 .screenBorderOrange { 
     height: 12.8em;
     width: 20em;
-    background-color: grey;
     border-radius: 0.5em 0.5em 0.5em 0.5em;
     border-style: inset;
     border-width: 0.3em;
     border-color: rgb(189, 103, 4) rgb(192, 127, 7) rgb(196, 130, 33) rgb(172, 106, 8);
     display: flex; 
     align-items: center;
-    justify-content: center;
+    /*justify-content: center;*/
 }
 
 .screenBorderBlack {
 
-    height: 12.3em;
+    /*height: 12.3em;
     width: 19.8em;
-    background-color: grey;
+    background-color: grey;*/
     border-radius: 0.3em 0.3em 0.3em 0.3em;
     border-style: inset;
     border-width: 0.3em;
     border-color: black;
-    display: flex; 
+    /*display: flex; 
     align-items: center;
-    justify-content: center;
+    justify-content: center;*/
 }
 
 /*Outside Frame Left*/
@@ -185,15 +204,15 @@ h4 {
     width: 10em;
     background-color: #e88b55;
     border-bottom-left-radius:  0.5em 0.5em; 
-    justify-content: center;
-    flex-direction: row; 
+    /*justify-content: center;
+    flex-direction: row; */
 
 }
 
 .frameLogoGW {
     height: 12em;
     width: 8em;
-    background-color: #e88b55;
+    /*background-color: #e88b55;*/
     border-top-right-radius:  0.5em 0.5em; 
     border-top-left-radius:  0.5em 0.5em; 
     margin-top: 1em;
@@ -202,16 +221,16 @@ h4 {
     border-width: 0.3em;
     border-color: rgb(189, 103, 4) rgb(192, 127, 7) rgb(196, 130, 33) rgb(172, 106, 8);
     border-bottom:    1em;
-    justify-content: center;
+    /*justify-content: center;
     display: flex; 
-    flex-direction: row; 
+    flex-direction: row; */
     
 }
 
 .frameControl {
     height: 12em;
     width: 8em;
-    background-color: #e88b55;
+   /* background-color: #e88b55;*/
     border-bottom-right-radius:  0.5em 0.5em; 
     border-bottom-left-radius:  0.5em 0.5em; 
     margin-bottom: 1em;
@@ -220,9 +239,9 @@ h4 {
     border-width: 0.3em;
     border-color: rgb(189, 103, 4) rgb(192, 127, 7) rgb(196, 130, 33) rgb(172, 106, 8);
     border-top:    1em;
-    justify-content: center;
+    /*justify-content: center;
     display: flex; 
-    flex-direction: row; 
+    flex-direction: row; */
 }
 
 
@@ -230,9 +249,9 @@ h4 {
     width: 7.5em;
     height: 7em;
     display: flex; 
-    align-items: center;
+    /*align-items: center;
     justify-content: center;
-    background-color: transparent;
+    background-color: transparent;*/
     margin-top: 2em;
     margin-left: 0.4em;
  }
@@ -243,7 +262,7 @@ h4 {
     background-color: #f6f3e7;
     justify-content: center;
     display: flex; 
-    flex-direction: row; 
+    /*flex-direction: row; */
     align-items: center;
 
 
@@ -252,19 +271,19 @@ h4 {
 .outsideBorderO {
     height: 11em;
     width: 6.9em;
-    background-color: #f6f3e7;
+    /*background-color: #f6f3e7;*/
     border-style: solid;
     border-width: 0.2em;
     border-color:  rgb(196, 130, 33);
     justify-content: center;
     display: flex; 
-    flex-direction: row; 
+    /*flex-direction: row; */
 }
 
 .controlBackGW {
-    justify-content: center;
+    /*justify-content: center;
+    align-items: center;*/
     text-align: center;
-    align-items: center;
 }
 
 
@@ -276,7 +295,7 @@ h4 {
     justify-content: center;
     align-items: center;
     background-color: #f6f3e7;
-    margin-top: 3em;
+    margin-top: 2em;
  }
 
 .buttonL {
@@ -351,6 +370,8 @@ h4 {
     box-shadow: inset 0px 0px 10px #1f1f1f;
 }
 
+.circleM:hover {opacity: 0.5}
+
 .arrowUp {
     margin-top: 5em;
     width: 0;
@@ -359,8 +380,9 @@ h4 {
     border-top: .5em solid transparent;
     border-bottom: .5em solid transparent;
     transform: rotate(-90deg);
-
 }
+
+.arrowUp:hover {opacity: 0.5}
 
 .arrowLeft {
     margin-left: 0.34em;
@@ -371,6 +393,8 @@ h4 {
     transform: rotate(-180deg);
 }
 
+.arrowLeft:hover {opacity: 0.5}
+
 .arrowRight { 
     margin-right: .4em;
     width: 0;
@@ -379,6 +403,8 @@ h4 {
     border-top: .5em solid transparent;
     border-bottom: .5em solid transparent;
 }
+
+.arrowRight:hover {opacity: 0.5}
 
 .arrowDown {
     margin-bottom: 5em;
@@ -389,23 +415,17 @@ h4 {
     border-top: .5em solid transparent;
     border-bottom: .5em solid transparent;
     transform: rotate(90deg);
-
 }
+
+.arrowDown:hover {opacity: 0.5}
+
 /*Outside Frame Left*/
 
-.outsideFrameRight {  
-    height: 27em;
-    width: 10em;
-    background-color: #e88b55;
-    border-bottom-right-radius: 0.5em 0.5em; 
-    justify-content: center;
-    flex-direction: row; 
-    }
 
 .frameGamesAB {
     height: 12em;
     width: 8em;
-    background-color: #e88b55;
+    /*background-color: #e88b55;*/
     border-top-right-radius:  0.5em 0.5em; 
     border-top-left-radius:  0.5em 0.5em; 
     margin-top: 1em;
@@ -414,10 +434,10 @@ h4 {
     border-width: 0.3em;
     border-color: rgb(189, 103, 4) rgb(192, 127, 7) rgb(196, 130, 33) rgb(172, 106, 8);
     border-bottom:    1em;
-    justify-content: center;
     display: flex; 
-    flex-direction: row; 
+    /*flex-direction: row; 
     align-items: center;
+    justify-content: center;*/
     text-align: center;
 }   
 
@@ -436,19 +456,18 @@ h4 {
 .columnAlarm {
     height: 12em;
     width: 3em;
-    background-color: #e88b55;
+    /*background-color: #e88b55;*/
 }
 
 
 .gameABT {
-    display: block;
+    /*display: block;*/
     width: 1.5em;
     height: 0.9em;    
     margin-top: 2em;
     margin-left: auto;
     margin-right: auto;
     background: #999;
-    /*margin-bottom: 5px;*/
     box-shadow: inset 0 -3px 2px rgb(0 0 0 / 40%);
     border-bottom-right-radius:  0.5em; 
     border-bottom-left-radius:  0.5em; 
@@ -456,9 +475,9 @@ h4 {
     border-top-right-radius:  0.5em; 
     border-style: inset;
     border-color: rgb(51, 51, 50) rgb(134, 94, 53) rgb(99, 88, 58) rgb(94, 65, 22);
-    /*justify-content: center;*/
-
 }
+
+.gameABT:hover {opacity: 0.4}
 
 .rowBlank {
     margin: -1.5em;
@@ -478,12 +497,11 @@ h4 {
     box-shadow: inset 0 4px 6px rgb(0 0 0 / 50%);
 }
 
-
+.alarmAlt:hover {opacity: 0.4}
 
 .frameCircleBotom {
     height: 12em;
     width: 8em;
-    background-color: #e88b55;
     margin-bottom: 1em;
     margin-left: 0.5em;
     border-bottom-right-radius:  0.5em 0.5em; 
@@ -492,20 +510,20 @@ h4 {
     border-width: 0.3em;
     border-color: rgb(189, 103, 4) rgb(192, 127, 7) rgb(196, 130, 33) rgb(172, 106, 8);
     border-top:    1em;
-    justify-content: center;
+    /*justify-content: center;
     display: flex; 
-    flex-direction: row; 
+    flex-direction: row; */
 }
 .divBlank {
     height: 2em;
-    width: 2em;
-    color: transparent;
+    /*width: 2em;
+    color: transparent;*/
 }
 
 .textStart {
     height: 1.5em;
     width: 5em;
-    justify-content: center;
+    /*justify-content: center;*/
     margin-top: 1em;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
@@ -519,12 +537,12 @@ h4 {
 
 }
 
-.controCircle {
+.controlCircle {
     height: 3em;
     width: 3em;
-    display: flex;
+    /*display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
     border-radius: 50%;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -535,3 +553,5 @@ h4 {
     border-right: 0.2em solid rgb(196, 130, 33);
     border-left: 0.2em solid rgb(196, 130, 33);
 }
+
+.controlCircle:hover {opacity: 0.7}
