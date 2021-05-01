@@ -107,7 +107,7 @@ img {
 }
 
 .logoBox {
-    height: 1.8em;
+    height: 1.95em;
     width: 10em;
     background-color: transparent;
     border-style: inset;
@@ -116,10 +116,7 @@ img {
     display: flex; 
     align-items: center;
     justify-content: center;
-    box-shadow: 3px 3px 7px #333,
-    5px 5px 7px #ccc inset,
-    -3px -3px 7px #333,
-    -5px -5px 7px #ccc inset;
+    box-shadow: 1px 1px 4px #5a5a5a, 1px 1px 4px #ccc inset, -1px -1px 4px #5a5a5a, -1px -1px 3px #ccc inset;
     border-radius: 130px 130px 130px 130px; 
     overflow: hidden;
 }
