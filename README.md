@@ -40,11 +40,11 @@ Donkey Kong aparece en la compilación Game & Watch Gallery 2 para Game Boy Colo
 
 Para la realización de este trabajo contamos con las siguientes herramientas y tecnologías.
 
-- <img src="images/logovisual.png" alt="Visual" width="30"/>  Visual Code Estudio
-- <img src="images/html.png" alt="HTML5" width="30"/> HTML5
-- <img src="images/css.png" alt="CSS3" width="45"/> CSS3
-- <img src="images/git.png" alt="Git" width="30"/>  Git
-+ <img src="images/github.png" alt="GitHub" width="45"/> GitHub
+| <img src="images/logovisual.png" alt="Visual" width="30"/> | Visual Code Estudio 
+| <img src="images/html.png" alt="HTML5" width="30"/> | HTML5 |
+| <img src="images/css.png" alt="CSS3" width="30"/> | CSS3 | 
+| <img src="images/git4.png" alt="Git" width="30"/> | Git | 
+| <img src="images/github2.png" alt="GitHub" width="30"/> | GitHub | 
 
 <br>
 
