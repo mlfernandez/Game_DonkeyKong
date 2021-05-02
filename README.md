@@ -1,7 +1,7 @@
 <a name="top"></a>
 
-<h1>Donkey Kong</h1> 
-<h5> Game & Watch by Nintendo</h5>
+<center><h1>Donkey Kong</h1> </center>
+<center><h5> Game & Watch by Nintendo</h5> </center>
 
 -----------------
 
