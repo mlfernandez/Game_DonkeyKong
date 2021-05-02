@@ -1,6 +1,6 @@
 <a name="top"></a>
 
-#Donkey Kong 
+<h1>Donkey Kong</h1> 
 ##### Game & Watch by Nintendo
 
 -----------------
